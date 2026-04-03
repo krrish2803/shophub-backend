@@ -7,8 +7,8 @@ werkzeug==3.0.3
 # Emotion detection
 fer==22.5.1
 opencv-python-headless==4.9.0.80
-numpy==1.26.4
-tensorflow==2.16.1        # Required by FER for deep learning backend
+tensorflow==2.13.0
+numpy==1.24.3   # Required by FER for deep learning backend
 Pillow==10.3.0
 
 # Database (swap to psycopg2-binary for PostgreSQL)
