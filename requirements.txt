@@ -3,19 +3,9 @@ flask-sqlalchemy==3.1.1
 flask-cors==4.0.1
 PyJWT==2.8.0
 werkzeug==3.0.3
-
-# Emotion detection
-fer==22.5.1
-opencv-python-headless==4.9.0.80
-tensorflow==2.13.0
-numpy==1.24.3   # Required by FER for deep learning backend
-Pillow==10.3.0
-
-# Database (swap to psycopg2-binary for PostgreSQL)
-# psycopg2-binary==2.9.9
-
-# Production server
 gunicorn==22.0.0
-
-# Dev tools
 python-dotenv==1.0.1
+opencv-python-headless==4.8.1.78
+numpy==1.24.3
+Pillow==10.3.0
+deepface==0.0.79
